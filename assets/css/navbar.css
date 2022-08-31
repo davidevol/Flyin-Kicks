@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'NauSea';
+    src: url('/assets/fonts/NauSea.ttf');
+}
+
+.lista{
+    color: #ffffff;
+    font-size: 30px;
+    transition: color .2s;
+}
+
+.lista:hover{
+    color: #e5202b;
+}
+
+.offcanvas{
+    background-color: #111111;
+}
+
+.offcanvas-body{
+    background-color: #111111;
+}
+
+.close{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.close:hover{
+    color: #e5202b;
+}
+
+.close:focus{
+    border-color: none;
+    box-shadow: none;
+}
+
+.link{
+    color: #ffffff;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    transition: color .2s;
+}
+
+.link:hover{
+    color: #e5202b;
+}
+
+.login{
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 20px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+    border-width: 2px;
+    border-color: #ffffff;
+    width: 150px;
+}
+
+.login:hover{
+    color: #e5202b;
+    border-color: #e5202b;
+}
+
+.login:focus{
+    border-color: none;
+    box-shadow: none;
+}
+
+.logout{
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 20px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+    border-width: 2px;
+    border-color: #ffffff;
+    width: 150px;
+}
+
+.logout:hover{
+    color: #e5202b;
+    border-color: #e5202b;
+}
+
+.logout:focus{
+    border-color: none;
+    box-shadow: none;
+}
+
+.pesquisa{
+    font-size: 20px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    background-color: #000000;
+    border-color: #ffffff;
+    border-width: 2px;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.pesquisa:hover{
+    border-color: #e5202b;
+}
+
+.pesquisa:focus{
+    border-color: #e5202b;
+    box-shadow: none;
+}
+
+.navbarLogo{
+    color: #ffffff;
+    font-family: 'NauSea';
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.navbarLogo:hover{
+    color: #e5202b;
+}
+
+.navbarLogo:focus{
+    border-color: none;
+    box-shadow: none;
+}
+
+.sacola{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.sacola:hover{
+    color: #e5202b;
+}#ffffff
+
+.sacola:focus{
+    border-color: none;
+    box-shadow: none;
+}

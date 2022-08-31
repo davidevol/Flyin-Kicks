@@ -1,0 +1,101 @@
+body{
+    background-color: #111111;
+}
+
+.sacolaContent{
+    margin-top: 5%;
+}
+
+.tituloSacola{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    margin-bottom: 5%;
+}
+
+.content{
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 100px;
+}
+
+.imgSacola{
+    border-radius: 20px;
+    width: 90%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.titulo{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    margin-bottom: 5%;
+}
+
+.desc{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.btnContinuar{
+    color: #000000;
+    background-color: white;
+    font-size: 25px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+    border-width: 2px;
+}
+
+.btnContinuar:hover{
+    color: #e5202b;
+    border-color: #e5202b;
+}
+
+.btnContinuar:focus{
+    border-color: none;
+    box-shadow: none;
+}
+
+.btnFinalizar{
+    color: white;
+    background-color: #000000;
+    font-size: 25px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+    border-width: 2px;
+    border-color: white;
+}
+
+.btnFinalizar:hover{
+    color: #e5202b;
+    border-color: #e5202b;
+}
+
+.btnFinalizar:focus{
+    border-color: none;
+    box-shadow: none;
+}
+
+#myFooter{
+    padding: 10px;
+    margin-top: 50%;
+}
+
+@media screen and (max-width: 991px) and 
+(min-width: 0px) {
+    .btnFinalizar{
+        margin-top: 10px;
+    }
+}

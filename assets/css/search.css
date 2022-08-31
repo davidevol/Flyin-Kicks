@@ -1,0 +1,159 @@
+body{
+    background-color: #111111;
+}
+
+.titulo{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.subTitulo{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.dropdownFiltro{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: color 0.2s;
+}
+
+.dropdownFiltro:hover{
+    color: #e5202b;
+}
+
+.btnFiltro{
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 20px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+    border-width: 2px;
+    border-color: #ffffff;
+    width: 150px;
+}
+
+.btnFiltro:hover{
+    color: #e5202b;
+    border-color: #e5202b;
+}
+
+.btnFiltro:focus{
+    border-color: none;
+    box-shadow: none;
+}
+
+.linkFiltro{
+    color: #ffffff;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    transition: color .2s;
+    text-decoration: none;
+}
+
+.linkFiltro:hover{
+    color: #e5202b;
+}
+
+.card{
+    text-align: start;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 50px;
+    transition: transform .2s;
+}
+
+.card:hover{
+    transform: scale(1.15);
+}
+
+.imgCard:focus{
+    border-color: none;
+    box-shadow: none;
+}
+
+.card-img-top{
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.card-titulo{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 25px;
+}
+
+.preco{
+    font-size: 20px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.addSacola{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+.addFav{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.addSacola:focus{
+    border-color: none;
+    box-shadow: none;
+}
+
+.addFav:focus{
+    border-color: none;
+    box-shadow: none;
+}
+
+.addSacola:hover{
+    color: #e5202b;
+}
+
+.addFav:hover{
+    color: #e5202b;
+}
+
+.titulo{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+#myFooter{
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 991px) and 
+(min-width: 0px) {
+    .filtroDesktop{
+        display: none;
+    }
+    .resultado{
+        place-items: center;
+    }
+}
+
+@media screen and (max-width: 4320px) and 
+(min-width: 992px) {
+    .tituloFiltroMobile{
+        display: none;
+    }
+    
+    .filtroMobile{
+        display: none;
+    }
+}
